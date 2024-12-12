@@ -1,4 +1,4 @@
-//By using Ternary operator WAP to determine the input number from user is even or odd.
+//By using Ternary operator wap to determine the input number from user is even or odd.
 
 #include<stdio.h>
 int main()

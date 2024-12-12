@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<math.h>
-int main()
+int quad(double a,double b,double c)
 {
-    double a,b,c,d,r1,r2,rp,ip;
+    double d,r1,r2,rp,ip;
     printf("Enter the Coefficients of Quadratic Equation:");
     scanf("%lf%lf%lf",&a,&b,&c);
     d=(b*b)-(4*a*c);
@@ -23,5 +23,11 @@ int main()
         ip=(sqrt(-d)/(2*a));
         printf("The Quadratic Equation has Complex roots r1=%0.3lf+%0.3lf and r2=%0.3lf-%0.3lf\n",rp,ip,rp,ip);
     }
+    
+}
+int main()
+{
+    double a,b,c;
+    quad(a,b,c);
     return 0;
 }

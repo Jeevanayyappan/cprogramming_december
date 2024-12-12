@@ -7,5 +7,4 @@ int main()
     coin_earned=n*0.1;
     printf("Number of Coins Earned is %d",coin_earned);
     return 0;
-
 }

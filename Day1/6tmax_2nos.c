@@ -1,3 +1,4 @@
+//Using Ternary Operator to find maximum of two numbers
 #include<stdio.h>
 int main()
 {

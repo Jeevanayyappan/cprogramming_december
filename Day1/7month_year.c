@@ -1,4 +1,4 @@
-//WAP to determine whether the month number given by user is a month of a year or not.
+// Using Ternary Operator wap to determine whether the month number given by user is a month of a year or not.
 #include<stdio.h>
 int main()
 {

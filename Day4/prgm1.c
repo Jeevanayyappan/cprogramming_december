@@ -11,7 +11,4 @@ int main()
    printf("%d\n",ptr);
    printf("%p\n",&ptr);
    return 0;
-
-
-
 }

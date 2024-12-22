@@ -1,18 +1,25 @@
 //Write a C Program to reverse a string without using library functions.
-#include<stdio.h>
-int main()
+#include <stdio.h>
+void reverseString(char str[]) 
 {
-    int i,str[100],length=0,end;
-    printf("Enter the String: ");
-    scanf("%s",&str);
-    int *ptr=str;
-    while(*ptr!='\0')
+    int length = 0;
+    while (str[length] != '\0') 
     {
-        length+=1;
-        ptr++;
+        length++;
     }
-    end=length-1;
-    for(i=0;i<end;i++)
-
-
+    for (int i = 0; i < length / 2; i++) 
+    {
+        char temp = str[i];
+        str[i] = str[length - 1 - i];
+        str[length - 1 - i] = temp;
+    }
+}
+int main() 
+{
+  char str[100];
+  printf("Enter a string: ");
+  scanf("%99s", str);
+  reverseString(str);
+  printf("Reversed string: %s\n", str); 
+  return 0;
 }

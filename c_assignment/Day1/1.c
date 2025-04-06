@@ -7,5 +7,5 @@ int main()
     scanf("%d%d",&x,&y);
     int max_num=(x>y)?printf("%d is greater",x):printf("%d is greater",y);
     return 0;
-
-}
+      
+} 
